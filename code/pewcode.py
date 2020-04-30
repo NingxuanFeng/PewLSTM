@@ -22,8 +22,8 @@ import csv
 
 
 # Global variables 
-record_path = '/home/fengningxuan/parkAI/data/record/'
-weather_path = '/home/fengningxuan/parkAI/data/weather/'
+record_path = '../data/record/'
+weather_path = '../data/weather/'
 
 park_all_cnt = 10
 weather_all_cnt = 6
