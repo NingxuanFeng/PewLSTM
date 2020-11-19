@@ -1,4 +1,4 @@
-Lockdown Time,Lockup Time,cost,"status(0 for unstable, 1 for stable)"
+Lockdown Time,Lockup Time,cost,status£¨0 for unstable£¬1 for stable£©
 2018/12/25 18:33,2018/12/25 18:33,0,0
 2018/12/26 10:10,2018/12/26 10:11,0,0
 2018/12/27 16:58,2018/12/27 16:58,0,0
