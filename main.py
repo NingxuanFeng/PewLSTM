@@ -29,8 +29,8 @@ weather_path = './data/weather/'
 park_all_cnt = 10
 weather_all_cnt = 6
 
-park_table_id = ['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10','P11','P12','P13']
-park_weather_idx = [0,0,1,1,1,2,2,2,2,2,3,4,5]
+park_table_id = ['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10']
+park_weather_idx = [0,0,1,1,1,2,2,2,2,2]
 weather_name = ['Ningbo','Ningbo Yinzhou','Changsha']
 
 def read_park_table(index, debug = False):
