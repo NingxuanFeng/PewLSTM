@@ -1,7 +1,7 @@
 # PewLSTM
 This is the implementation of the model and real-world parking data described in:
 
-Feng Zhang, Ningxuan Feng, Yani Liu, Cheng Yang, Jidong Zhai, Shuhao Zhang, Bingsheng He, Jiazao Lin, Xiaoyong Du, "PewLSTM: Periodic LSTM with Weather-Aware Gating Mechanism for Parking Behavior Prediction"
+"PewLSTM: Periodic LSTM with Weather-Aware Gating Mechanism for Parking Behavior Prediction"(https://www.ijcai.org/Proceedings/2020/610)
 
 Appeared in IJCAI'2020
 
@@ -12,13 +12,7 @@ This is a Pytorch implementation of the PewLSTM model described in paper. PewLST
 In big cities, there are plenty of parking spaces, but we often ﬁnd nowhere to park. For example, New York has 1.4 million cars and 4.4 million on-street parking spaces,but it is still not easy to ﬁnd a parking place near our destination, especially during peak hours. The reason is the lack of prediction of parking behavior. If we could provide parking behavior in advance, we can ease this parking problem that affects human well-being. We observe that parking lots have periodic parking patterns, which is an important factor for parking behavior prediction. Unfortunately, existing work ignores such periodic parking patterns in parking behavior prediction, and thus incurs low accuracy. To solve this problem, we propose PewLSTM, a novel periodic weather-aware LSTM model that successfully predicts the parking behavior based on historical records, weather, environments, and weekdays. PewLSTM has been successfully integrated into a real parking space reservation system, ThsParking, which is one of the top smart parking platforms in China. Based on 452,480 real parking records in 683 days from 10 parking lots, PewLSTM yields 85.3% parking prediction accuracy, which is about 20% higher than the state-of-the-art parking behavior prediction method.
 
 ## Run the code
-
-1. We use Anaconda to create a python 3.6 environment. 
-2. run ``` pip install -r requirements.txt ``` to install package dependencies.
-3. check the data path (line 26 and line 27) and other parameters in ```main.py```.
-4. run ``` python main.py ``` to get the results.
-
-We recommend that you use the jupyter notebook to visually view the experimental results.
+Please execute the code by ```python main.py```.
 
 
 ## ThsParking
