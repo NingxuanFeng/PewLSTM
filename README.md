@@ -15,8 +15,8 @@ In big cities, there are plenty of parking spaces, but we often ﬁnd nowhere to
 
 1. We use Anaconda to create a python 3.6 environment. 
 2. run ``` pip install -r requirements.txt ``` to install package dependencies.
-3. check the data path (line 25 and line 26) and other parameters in ```pewcode.py```.
-4. run ``` python code.py ``` to get the results.
+3. check the data path (line 26 and line 27) and other parameters in ```main.py```.
+4. run ``` python main.py ``` to get the results.
 
 We recommend that you use the jupyter notebook to visually view the experimental results.
 
